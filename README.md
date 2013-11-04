@@ -1,4 +1,4 @@
 App-engine-calculator
 =====================
 
-A calculator using Google App Engine and Python.
+A calculator app using Google App Engine and Python.
