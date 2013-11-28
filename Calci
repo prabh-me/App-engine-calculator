@@ -1,8 +1,9 @@
 
+
 import webapp2
 class MainPage(webapp2.RequestHandler):
     def get(self):
-        # build a list of operations
+    # build a list of operations
         f = {'+': lambda x, y: str(float(x) + float(y)),
              '-': lambda x, y: str(float(x) - float(y)),
              '*': lambda x, y: str(float(x) * float(y)),
